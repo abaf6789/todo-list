@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="node_modules\normalize.css\normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">    <!--总容器开始-->
+      <h1>Todo List</h1>
+      <form class="add-task">   <!--添加列表项开始-->
+        <input name="content"
+         type="text"
+         placeholder="eg 今天学习jQuery"
+         autofocus
+         autocomplete="off">
+        <button>submit</button>
+      </form>                    <!--添加列表项结束-->
+      <div class="task-list">  <!--列表项开始-->
+        <!-- <div class="task-item">
+          <span><input type="checkbox"></span>
+          <span class="task-content">item content 1</span>
+          <span>delete</span>
+          <span>detail</span>
+        </div> -->
+      </div>
+ <!--定义五个列表项结束-->
+ <div class="task-detail-mask"></div>
+      <div class="task-detail">  <!--任务详情开始-->
+
+
+    </div>                  <!--任务详情结束-->
+    </div>
+    </div> <!--总容器结束-->
+    <script src="node_modules\jquery\dist\jquery.js"></script>
+    <script src="node_modules\store\dist\store.legacy.min.js"></script>
+    <script src="js\index.js"></script>
+</body>
+</html>
